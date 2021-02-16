@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 1.1rem 0;font-size: 1.2rem;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" height="100px">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.pexels.com/photos/4850517/pexels-photo-4850517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/3274915/pexels-photo-3274915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/5876816/pexels-photo-5876816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section class="section-team">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="header-section">
+                        <h3 class="small-title">Notre equipe </h3>
+                        <h2 class="title">Rencontrons les membres de notre équipe</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="single-person">
+                        <div class="person-image">
+                            <img src="https://i.ibb.co/G2CBWvb/person1.jpg" alt="">
+                            <span class="icon">
+                                <i class="fab fa-html5"></i>
+                            </span>
+                        </div>
+                        <div class="person-info">
+                            <h3 class="full-name">John Doe</h3>
+                            <span class="speciality">Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="single-person">
+                        <div class="person-image">
+                            <img src="https://i.ibb.co/nbpNr4r/person2.jpg" alt="">
+                            <span class="icon">
+                                <i class="fab fa-wordpress-simple"></i>
+                            </span>
+                        </div>
+                        <div class="person-info">
+                            <h3 class="full-name">Robert Smith</h3>
+                            <span class="speciality">WordPress Developer</span>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="single-person">
+                        <div class="person-image">
+                            <img src="https://i.ibb.co/25zdRMr/person3.jpg" alt="">
+                            <span class="icon">
+                                <i class="fab fa-angular"></i>
+                            </span>
+                        </div>
+                        <div class="person-info">
+                            <h3 class="full-name">John Doe</h3>
+                            <span class="speciality">Angular Developer</span>
+                        </div>
+                    </div>
+                </div>
+           
+            </div>
+        </div>
+    </section>
+<section class="container mt-5">
+    <!--Contact heading-->
+    <div class="row">
+        <!--Grid column-->
+        <div class="col-sm-12 mb-4 col-md-5">
+            <!--Form with header-->
+            <div class="card border-primary rounded-0">
+                <div class="card-header p-0">
+                    <div class="bg-primary text-white text-center py-2">
+                        <h3><i class="fa fa-envelope"></i> Write to us:</h3>
+                        <p class="m-0">We’ll write rarely, but only the best content.</p>
+                    </div>
+                </div>
+                <div class="card-body p-3">
+
+                    <div class="form-group">
+                        <label> Your name </label>
+                        <div class="input-group">
+                            <input value="" type="text" name="data[name]" class="form-control"
+                                id="inlineFormInputGroupUsername" placeholder="Your name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Your email</label>
+                        <div class="input-group mb-2 mb-sm-0">
+                            <input type="email" value="" name="data[email]" class="form-control"
+                                id="inlineFormInputGroupUsername" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Subject</label>
+                        <div class="input-group mb-2 mb-sm-0">
+                            <input type="text" name="data[subject]" class="form-control"
+                                id="inlineFormInputGroupUsername" placeholder="Subject">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <div class="input-group mb-2 mb-sm-0">
+                            <input type="text" class="form-control" name="mesg">
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <input type="submit" name="submit" value="submit"
+                            class="btn btn-primary  ">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-sm-12 col-md-7">
+            <!--Google map-->
+            <div class="mb-4 ml-2">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.2114256204845!2d-7.653899984414095!3d33.59981834888215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2fe8edacabf%3A0xd65390f4610ce47b!2sANFA%2C%20Casablanca%2020250%2C%20Morocco!5e0!3m2!1sen!2sin!4v1613490496785!5m2!1sen!2sin"
+                    width="660" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+            <!--Buttons-->
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <a class="bg-primary px-3 py-2 rounded text-white mb-2 d-inline-block"><i
+                            class="fa fa-map-marker"></i></a>
+                    <p> imm. Habouss, bloc D appt.10, bab Doukkala </p>
+                </div>
+                <div class="col-md-4">
+                    <a class="bg-primary px-3 py-2 rounded text-white mb-2 d-inline-block"><i
+                            class="fa fa-phone"></i></a>
+                    <p>+212 6777889900</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="bg-primary px-3 py-2 rounded text-white mb-2 d-inline-block"><i
+                            class="fa fa-envelope"></i></a>
+                    <p> email@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <!--Grid column-->
+    </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
